@@ -211,6 +211,12 @@ ol li
   border-bottom: 1px solid #FFF;
   margin: 0 0 20px 0;}
   
+a.social_media
+{
+    position: relative;
+    top: -10px;
+}
+  
 table
 { margin: 10px 0 30px 0;}
 
