@@ -230,3 +230,35 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
+  
+#moan
+{
+  font-size: 1000%;
+  font-style: italic;
+  line-height: 320px;
+  text-align: center;
+}
+
+#mess
+{
+    font-size: 1000%;
+    font-style: italic;
+    line-height: 213px;
+    text-align: center;
+}
+
+#licks
+{
+    font-size: 1000%;
+    font-style: italic;
+    line-height: 210px;
+    text-align: center;
+}
+
+#rory
+{
+    font-size: 1000%;
+    font-style: italic;
+    line-height: 240px;
+    text-align: center;
+}
