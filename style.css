@@ -10,7 +10,9 @@ body
   font-size: .84em;
   color: #222;
   line-height: 1.4em;
-  background: #111;
+  /*background: #111;*/
+  background-image:url('images/background.jpg');
+  background-size:100%;
   width: 900px;
   margin: 10px auto 0px auto;}
   
@@ -98,34 +100,49 @@ ol li
 
 #basic-accordian
 { padding: 0px;
-  background: #FFF;}
+  background: #FFF;
+  border-top: 1px solid #222;
+  border-left: 1px solid #222;
+  }
 
 .accordion_headings
 { padding: 10px 25px 10px 25px;
-  background: #330066;
-  color: #FFF;
+  /*background: #330066;*/
+  /* color: #FFF; */
+  color: #660000;
+  background: #E8E8E8;
   border-top: 1px solid #555;
-  border-bottom: 1px solid #222;
+  border-left: 1px solid #555;
+  /*border-bottom: 1px solid #222;
+  border-right: 1px solid #222;*/
   cursor: pointer;
-  font-size: 120%;
+  font-family: 'Piedra', cursive;
+  font-size: 200%;
   position: relative;
+  /*text-align:center;*/
   z-index: 20;}
 
 .accordion_headings:hover
-{ background: #660000;
-  border-bottom: 1px solid #660000;}
+{ /*background: #660000;
+  border-bottom: 1px solid #660000; */
+  background: #660000;
+  border-bottom: 1px solid #660000;
+  color: #E8E8E8;}
 
 .accordion_child
 { padding: 25px;
   background: #FFF;}
 
 .header_highlight
-{ background: #660000;
-  border-bottom: 1px solid #660000;}
+{ /*background: #660000;
+  border-bottom: 1px solid #660000; */
+  background: #660000;
+  border-bottom: 1px solid #660000;
+  color: #E8E8E8;}
 
 #logo
 { width: 100%;
-  height: 78px;
+  height: 300px;
   background: transparent;
   color: #444;
   position: relative;
@@ -134,7 +151,7 @@ ol li
 
 #logo h1
 { font: normal 600% 'century gothic', arial;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 30px;
   margin: 0;
   color: #444;}
 
@@ -214,7 +231,8 @@ ol li
 a.social_media
 {
     position: relative;
-    top: -10px;
+    top: -105px;
+    left: 620px;
 }
   
 table
